@@ -1,0 +1,116 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+pytest_cache/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Hugging Face specific
+# Model files
+*.bin
+*.h5
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# Hugging Face cache directory
+.cache/
+.huggingface/
+
+# Datasets
+data/
+dataset/
+datasets/
+raw_data/
+
+# Large files and directories that might contain models
+models/
+checkpoints/
+logs/
+runs/
+wandb/
+lightning_logs/
+
+# Config files that might contain sensitive information
+.env
+config.json
+secrets.json
+
+# Tensorboard
+events.out.tfevents.*
+
+# DVC
+.dvc/
+.dvcignore
+*.dvc
+
+# Other common files to ignore
+*.log
+*.sqlite
+.DS_Store
